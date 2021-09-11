@@ -6,6 +6,6 @@ services:
 		- "3000:3000"
 		- "3001:3001"
 	volumes:
-		- /volumes/widgets:/home/node/ArcGISExperienceBuilder/client/your-extensions/widgets/
-		- /volumes/widgets:/home/node/ArcGISExperienceBuilder/server/src/public/
+		- ./volumes/widgets:/home/node/ArcGISExperienceBuilder/client/your-extensions/widgets/
+		- ./volumes/public:/home/node/ArcGISExperienceBuilder/server/src/public/
 	command: npm start
