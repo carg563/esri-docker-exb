@@ -1,0 +1,11 @@
+version: "1.0"
+services:
+  exb:
+	image: cargr563:exb-1.2
+	ports:
+		- "3000:3000"
+		- "3001:3001"
+	volumes:
+		- /volumes/widgets:/home/node/ArcGISExperienceBuilder/client/your-extensions/widgets/
+		- /volumes/widgets:/home/node/ArcGISExperienceBuilder/server/src/public/
+	command: npm start

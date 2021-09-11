@@ -1,0 +1,16 @@
+FROM node:lts
+
+#Enable filesystem polling
+ENV CHOKIDAR_USEPOLLING=true
+
+#Copy and unzip configuration files
+WORKDIR /home/node
+COPY setup setup/
+RUN unzip setup/arcgis-experience-builder-1.2.zip
+
+#Install dependancies
+WORKDIR /home/node/ArcGISExperienceBuilder/client/
+RUN npm ci
+
+WORKDIR /home/node/ArcGISExperienceBuilder/server/
+RUN npm ci

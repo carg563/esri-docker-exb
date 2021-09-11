@@ -1,0 +1,1 @@
+docker build -f Dockerfile-1.5 --squash -t carg563-exb:exb-1.5 .
