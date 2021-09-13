@@ -11,6 +11,9 @@ RUN unzip setup/arcgis-experience-builder-1.2.zip
 #Install dependancies
 WORKDIR /home/node/ArcGISExperienceBuilder/client/
 RUN npm ci
+#use this as the place to insert the dependancies
+#-- extra libraries 
+# RUN npm install ---
 
 WORKDIR /home/node/ArcGISExperienceBuilder/server/
 RUN npm ci

@@ -1,0 +1,1 @@
+docker build -f Dockerfile-1.5 --squash -t cargr563/esri-exb:exb-1.5 .
