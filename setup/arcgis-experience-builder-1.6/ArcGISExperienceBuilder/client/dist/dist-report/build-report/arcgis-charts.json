@@ -1,0 +1,36 @@
+{
+  "entrypoints": {
+    "arcgis-charts": {
+      "chunks": [
+        {
+          "id": 2939,
+          "names": [
+            "arcgis-charts"
+          ],
+          "modules": [
+            "webpack/runtime/publicPath",
+            "webpack/runtime/make namespace object",
+            "webpack/runtime/load script",
+            "webpack/runtime/jsonp chunk loading",
+            "webpack/runtime/hasOwnProperty shorthand",
+            "webpack/runtime/harmony module decorator",
+            "webpack/runtime/global",
+            "webpack/runtime/get javascript chunk filename",
+            "webpack/runtime/ensure chunk",
+            "webpack/runtime/define property getters",
+            "webpack/runtime/compat get default export",
+            "./jimu-ui/set-arcgis-charts-public-path.ts",
+            "./jimu-ui/arcgis-charts.ts + 5 modules",
+            "./node_modules/arcgis-charts-js/dist/esm/index-e2cd6b80.js",
+            "./node_modules/arcgis-charts-shared-utils/dist/esm/index.js"
+          ]
+        }
+      ]
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "outputPath": "D:\\jenkins\\workspace\\exb-DE-release-build\\client\\dist/arcgis-charts",
+  "publicPath": "",
+  "version": "5.50.0"
+}

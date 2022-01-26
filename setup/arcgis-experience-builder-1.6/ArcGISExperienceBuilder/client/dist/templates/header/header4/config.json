@@ -1,0 +1,144 @@
+{
+  "layouts": {
+    "layout_1": {
+      "type": "FIXED",
+      "order": [
+        "0",
+        "3"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "24px",
+            "top": "50%",
+            "width": 97,
+            "height": 36
+          },
+          "widgetId": "widget_1",
+          "isPending": false,
+          "setting": {
+            "vCenter": true,
+            "hCenter": false,
+            "autoProps": {
+              "top": false,
+              "bottom": true
+            }
+          }
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "915px",
+            "top": "0px",
+            "width": "100px",
+            "height": "100%",
+            "right": "0px",
+            "bottom": "0px"
+          },
+          "widgetId": "widget_2",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "width": "CUSTOM",
+              "top": false
+            },
+            "hCenter": false,
+            "vCenter": false
+          }
+        }
+      }
+    }
+  },
+  "widgets": {
+    "widget_1": {
+      "uri": "widgets/common/image/",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {}
+        },
+        "styleConfig": {}
+      },
+      "id": "widget_1",
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "rgba(0,145,255,1)"
+        },
+        "borderRadius": {
+          "number": [
+            3
+          ],
+          "unit": "px"
+        }
+      }
+    },
+    "widget_2": {
+      "uri": "widgets/common/menu/",
+      "config": {
+        "type": "drawer",
+        "menuStyle": "default",
+        "vertical": true,
+        "standard": {
+          "icon": {
+            "svg": "<svg viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\" class=\"css-1i7frhi jimu-icon\"><path d=\"M2 1a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4zm0 7a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4zm0 7a1 1 0 100 2h12a1 1 0 100-2H2zm0-1h12a2 2 0 010 4H2a2 2 0 010-4z\" fill=\"currentColor\" fill-rule=\"nonzero\"></path></svg>",
+            "properties": {
+              "filename": null,
+              "originalName": null,
+              "path": null,
+              "color": "#fff",
+              "size": 20,
+              "inlineSvg": false
+            }
+          },
+          "submenuMode": "foldable",
+          "textAlign": "center",
+          "showIcon": false,
+          "showText": true,
+          "iconPosition": "start",
+          "gap": "0px",
+          "anchor": "right"
+        },
+        "advanced": true,
+        "variant": {
+          "item": {
+            "default": {
+              "bg": "rgba(0,145,255,0)",
+              "color": "rgba(255,255,255, .65)"
+            },
+            "hover": {
+              "color": "rgba(255,255,255, 1)"
+            },
+            "active": {
+              "color": "var(--primary)",
+              "bg": "rgba(237,237,237,1)"
+            }
+          },
+          "root": {
+            "bg": "var(--primary)"
+          }
+        }
+      },
+      "id": "widget_2"
+    }
+  },
+  "views": {},
+  "sections": {},
+  "messageConfigs": {},
+  "header": {
+    "layout": {
+      "LARGE": "layout_1"
+    },
+    "height": {
+      "LARGE": "97"
+    }
+  },
+  "template": "header4"
+}

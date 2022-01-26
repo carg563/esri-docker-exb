@@ -1,0 +1,13 @@
+{
+  "name": "jewelrybox",
+  "type": "template",
+  "templateType": "app",
+  "label": "JewelryBox",
+  "description": "JewelryBox is a template created to display features in a list combined with a map.",
+  "thumbnail": "thumbnail.png",
+  "order": 6,
+  "isMultiplePage": false,
+  "isMapAware": true,
+  "thumbnailWidth": 320,
+  "thumbnailHeight": 214
+}

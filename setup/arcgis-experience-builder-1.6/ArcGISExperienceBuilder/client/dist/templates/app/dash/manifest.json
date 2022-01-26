@@ -1,0 +1,13 @@
+{
+  "name": "dash",
+  "type": "template",
+  "templateType": "app",
+  "label": "Dash",
+  "description": "Dash is a template designed to display key metrics using charts, maps, cards, and text widgets.",
+  "thumbnail": "thumbnail.png",
+  "order": 19,
+  "isMultiplePage": false,
+  "isMapAware": false,
+  "thumbnailWidth": 320,
+  "thumbnailHeight": 214
+}

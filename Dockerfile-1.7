@@ -1,0 +1,14 @@
+FROM node:14.8
+
+#Copy and unzip configuration files
+WORKDIR /home/node
+COPY setup setup/
+RUN unzip setup/arcgis-experience-builder-1.7.zip
+
+#Install dependancies
+WORKDIR /home/node/ArcGISExperienceBuilder/client/
+RUN npm ci
+
+WORKDIR /home/node/ArcGISExperienceBuilder/server/
+RUN npm ci
+

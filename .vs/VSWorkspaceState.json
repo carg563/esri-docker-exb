@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\setup",
+    "\\build-commands",
+    "\\setup\\arcgis-experience-builder-1.7",
+    "\\setup\\arcgis-experience-builder-1.7\\ArcGISExperienceBuilder",
+    "\\setup\\arcgis-experience-builder-1.7\\ArcGISExperienceBuilder\\client",
     "\\volumes"
   ],
-  "SelectedNode": "\\Dockerfile",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }

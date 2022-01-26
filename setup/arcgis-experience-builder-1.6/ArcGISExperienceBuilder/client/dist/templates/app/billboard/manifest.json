@@ -1,0 +1,13 @@
+{
+  "name": "billboard",
+  "type": "template",
+  "templateType": "app",
+  "label": "Billboard",
+  "description": "Billboard was created with simplicity in mind; it contains a map and a controller widget.",
+  "thumbnail": "thumbnail.png",
+  "order": 12,
+  "isMultiplePage": false,
+  "isMapAware": true,
+  "thumbnailWidth": 320,
+  "thumbnailHeight": 214
+}
